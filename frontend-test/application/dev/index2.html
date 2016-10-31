@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Frontend-test - Desafio 2</title>
+	<link rel="stylesheet" href="dist/css/app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="dist/js/app.js"></script>
+	<style type="text/css">
+		#list {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		#list .name {
+			font-weight: bold;
+		}
+		#list .details {
+			font-weight: normal;
+		}
+	</style>
+</head>
+<body>
+<main>
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<div class="grid-2">
+					<div class="logo">
+						<a href="#" role="logo"><img src="dist/images/svgs/logo.svg" alt="Logo empresa" class="icon"></a>
+					</div>
+				</div>
+				<div class="grid-10">
+					<ul class="menu">
+						<li><a href="#">Lorem ipsum</a></li>
+						<li><a href="#">Dolor</a></li>
+						<li><a href="#">Consectetur</a></li>
+						<li class="button"><a href="#">Interdum</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<ul class="breadcrumbs">
+				<li><a href="#">Vestibulum</a></li>
+				<li><a href="#">Ultrices</a></li>
+				<li><a href="#">Érat egestas</a></li>
+				<li><a href="#">Varius felis sed</a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</header>
+	<section class="main-content">
+		<div class="container">
+			<div class="grid-12">
+				<form id="contact-form">
+					<div class="item">
+						<label for="name">Nome</label>
+						<input type="text" name="name" id="name" required>
+					</div>
+					<div class="item">
+						<label for="tel">Telefone</label>
+						<input type="tel" name="tel" id="tel" required>
+					</div>
+					<div class="item">
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" required>
+					</div>
+					<input type="submit" value="enviar">
+					<input type="submit" value="cancelar">
+				</form>
+
+				<ul id="list">
+					
+				</ul>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</section>
+	<footer>
+		<div class="menu-top">
+			<div class="container">
+				<div class="grid-8">
+					<section class="footer-menu">
+						<ul class="principal">
+							<li>
+								<h4>Áuctor commod</h4>	
+								<h5>Consectetur</h5>
+								<ul class="menu-inner">
+									<li>ÁLorem Item 1</li>
+									<li>Item 2</li>
+									<li>Lorem 3</li>
+									<li>Domus item 4</li>
+									<li>Domuçs 5</li>
+									<li>Lorem Item 7</li>
+									<li>Item8</li>
+									<li>Lorem 9</li>
+								</ul>	
+								<a href="#">All things</a>
+							</li>
+							<li>
+								<h5>Vestibulum</h5>	
+								<ul>
+									<li>ÁLorem Item 1</li>
+									<li>Item 2</li>
+									<li>Lorem 3</li>
+									<li>Domus item 4</li>
+								</ul>	
+								<a href="#">All things</a>
+							</li>
+						</ul>
+					</section>
+				</div>
+				<div class="grid-4">
+				<section class="logos-menu">
+					<h4>Pellentesque</h4>
+					<ul>
+						<li><a href="#" target="_blank"><img src="dist/images/logos/logo-01.png" alt="Logo empresa"></a></li>
+						<li><a href="#" target="_blank"><img src="dist/images/logos/logo-02.png" alt="Logo empresa"></a></li>
+						<li><a href="#" target="_blank"><img src="dist/images/logos/logo-03.png" alt="Logo empresa"></a></li>
+						<li><a href="#" target="_blank"><img src="dist/images/logos/logo-04.png" alt="Logo empresa"></a></li>
+						<li><a href="#" target="_blank"><img src="dist/images/logos/logo-05.png" alt="Logo empresa"></a></li>
+						<li><a href="#" target="_blank"><img src="dist/images/logos/logo-06.png" alt="Logo empresa"></a></li>
+					</ul>
+				</section>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<section class="institutional-menu">
+				<ul class="menu-left">
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Dolor</a></li>
+				</ul>
+				<ul class="menu-right">
+					<li><a href="#">Consectetur</a></li>
+					<li><a href="#">Tempus mauris a</a></li>
+					<li><a href="#">Phasellus in</a></li>
+				</ul>
+		</section>
+		<div class="copyright">
+			<div class="container">
+				<p>9999©Ut urna ligula, pretium ut elit dapibus, ornare tempus leo. Suspendisse augue massa</p>
+				<p>Donec in maximus metus. suspendisse volutpat ornare congue.</p>
+			</div>
+		</div>
+	</footer>	
+</main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "wsop",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Amanda Albuquerque"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "parallax.js": "^1.4.2"
+  },
+  "devDependencies": {
+    "jquery": "1.12.4",
+    "angular": "1.5.7",
+    "bootstrap": "3.3.6",
+    "components-font-awesome": "^4.6.3",
+    "ngMask": "angular-mask#^3.1.1",
+    "angular-animate": "1.5.7",
+    "wow": "wowjs#^1.1.2"
+  }
+}

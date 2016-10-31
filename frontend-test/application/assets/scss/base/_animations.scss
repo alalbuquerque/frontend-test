@@ -1,0 +1,50 @@
+@keyframes shadevenneNavToggleHover {
+  50% {
+    margin-top: -5px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes shadevenneMaterialFloat {
+  0% {
+    margin-top: 0;
+    margin-left: 0;
+    transform: rotate(-40deg) skewY(14deg) skewX(25deg) scale(1);
+  }
+  50% {
+    margin-top: 5px;
+    margin-left: -6px;
+    transform: rotate(-40deg) skewY(14deg) skewX(25deg) scale(0.98);
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 0;
+    transform: rotate(-40deg) skewY(14deg) skewX(25deg) scale(1);
+  }
+}
+@keyframes shadevenneMaterialUp {
+  50% {
+    margin-top: -5px;
+    margin-left: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes shadevenneCatalogSpan {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes shadevenneCatalogAfter {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

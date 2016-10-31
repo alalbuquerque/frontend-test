@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$screen-sm-min: 768px;
+$screen-xs-max: $screen-sm-min - 1px;
+$screen-md-min: 992px;
+$screen-sm-max: $screen-md-min - 1px;
+$screen-lg-min: 1200px;
+$screen-md-max: $screen-lg-min - 1px;
+$screen-lg-wide: 1441px;
+
+$primary-color: #F7941E;
+$secondary-color: #EC007A;
+$tertiary-color: #20B7CE;
+
+$gray-primary: #898989;
+$gray-secondary: #C9C9C9;
+$gray-tertiary: #EEEEEE; 
+
+$lighter-color: #FFFFFF;
+
+$container-padding: 15px;
+$space-10: 10px;
+$space-16: 16px;
+$space-20: 20px;
+$space-30: 30px;
+$space-40: 40px;
+
+$alternative_fonts: Arial, sans-serif;
+$open-sans: 'Open Sans';
+$default-font: $open-sans, $alternative_fonts; 
+
+
+$grid-gutter: 1%;
+$grid-columns: 12;
+$grid-max: 980px;
